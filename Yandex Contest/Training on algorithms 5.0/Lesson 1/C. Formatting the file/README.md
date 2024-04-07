@@ -46,7 +46,7 @@ Print one number – the minimum number of clicks to add the required number of 
 
 ## Notes
 In the example, you can:
-- click on Space 1 time in the first line.  
+- Press Space 1 time in the first line.  
 - Press Tab 1 time on the second line.  
 - Press Tab 3 times on the third line.  
 - Press Tab 2 times and press Space once in the fourth line.  
