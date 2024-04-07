@@ -18,7 +18,7 @@
   </tr>
 </table>
 
-The playoff round between the two teams consists of two matches. Each team plays one match at «home» and «away». 
+The playoff round between the two teams consists of two matches. Each team plays one match «at home» and «away». 
 The team that scores the most goals wins. If the number of goals scored matches, the team that scored more
 goals «away» wins. If this number of goals matches, the match goes into an extra half or a penalty shootout.  
 
