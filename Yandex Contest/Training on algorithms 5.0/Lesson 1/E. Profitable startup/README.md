@@ -25,7 +25,7 @@ As the chief accountant of the company, you want to add one digit to the end of 
 ## Input format
 Three numbers are written in a single line of input data separated by a space: <i>n</i>, <i>k</i>, <i>d</i> — the initial profit,
 the number of founders of the company and the number of days that you are going to monitor the profit (1 ≤ <i>n</i>, k ≤ 10<sup>9</sup>,
-1 ≤ d ≤ 10<sup>5</sup>). <b>IT is NOT</b>guaranteed that <i>n</i> is divisible by <i>k</i>.
+1 ≤ d ≤ 10<sup>5</sup>). <b>IT is NOT</b> guaranteed that <i>n</i> is divisible by <i>k</i>.
 
 ## Output format
 Print a single integer <i>x</i> — the company's profit in <i>d</i> days. The first digits of the number <i>x</i> must match the number
