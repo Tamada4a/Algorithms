@@ -20,8 +20,7 @@
 
 Misha was sitting in mathematics classes at the Higher School of Economics and solving the following problem: given <i>n</i> integers 
 and you need to place the signs + and × between them so that the result of the resulting arithmetic expression is 
-odd (for example, between the numbers 5, 7, 2, you can place arithmetic signs as follows: 5 × 7 + 2 = 37). As the examples became 
-more and more, and Misha urgently runs away to visit, you are required to write a program that solves this problem.
+odd (for example, between the numbers 5, 7, 2, you can place arithmetic signs as follows: 5 × 7 + 2 = 37). As the tasks became longer and longer, and Misha urgently runs away to visit, you are required to write a program that solves this problem.
 
 ## Input format
 The first line contains the singular <i>n</i>(1 ≤ <i>n</i> ≤ 10<sup>5</sup>). The second line contains <i>n</i>
