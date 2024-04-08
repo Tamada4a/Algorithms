@@ -30,9 +30,9 @@ The first line contains the score of the first mast in the format <i>G<sub>1</su
 by the first team, and <i>G<sub>2</sub></i> is the number of goals scored by the second team.  
 
 The second line contains the score of the second (current) match in a similar format. All numbers in the account
-record do not exceed <i>5</i>.  
+record do not exceed 5.  
 
-The third line contains the number <i>1</i> if the first team played the first game "at home", or <i>2</i> if "away".
+The third line contains the number 1 if the first team played the first game "at home", or 2 if "away".
 
 ## Output format
 Print a single integer — the required number of balls.
