@@ -26,8 +26,8 @@ figure that meets.
 
 ## Input format
 The first eight lines of the input describe the chessboard. The first eight characters of each of these lines describe the state
-of the corresponding horizontal: the symbol B (capital Latin letter) means that there is a bishop in the cage, the symbol R is a rook, the symbol * 
-— that the cage is empty. After the description of the horizontal line, there may be spaces in the line, but the length of each line does not exceed 250 characters.
+of the corresponding horizontal: the symbol B (capital Latin letter) means that there is a bishop in the cell, the symbol R is a rook, the symbol * 
+— that the cell is empty. After the description of the horizontal line, there may be spaces in the line, but the length of each line does not exceed 250 characters.
 After the description of the board, there may be empty lines in the file.
 
 ## Output format
