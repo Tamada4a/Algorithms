@@ -1,5 +1,5 @@
 # 1. A+B
-<i>(Time: 1 сек. Memory: 16 Mb. Difficulty: 2%)</i> 
+<i>(Time: 1 sec. Memory: 16 Mb. Difficulty: 2%)</i> 
  
 It is required to add two integers A and B.
  
