@@ -63,7 +63,7 @@ a point with an ordinate equal to zero. The ordinate increases downwards.
 The document is placed as follows. Paragraphs are placed in turn. The first paragraph is placed so that its upper bound has the 
 ordinate 0.  
 
-<div align="center"><img src=".assets/width.png?raw=true" alt="Element width" height="206"/></div>
+<div align="center"><img src="./assets/width.png?raw=true" alt="Element width" height="206"/></div>
 
 The paragraph is placed as follows. The elements are arranged in rows. Each row initially has a height of <i>h</i> pixels. 
 In the process of placing images, the height of the lines may increase, and the lines may be broken into fragments by images.
