@@ -5,11 +5,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // В данных переменных будут храниться соответствующие значения
+        //The corresponding values will be stored in these variables
         int k = Integer.MAX_VALUE, n = Integer.MAX_VALUE;
 
         ArrayList<Integer> prices = new ArrayList<>();
-        // Считываем данные
+
+        // Reading data
         try {
             Scanner scanner = new Scanner(new File("input.txt"));
             while (scanner.hasNextInt()) {
@@ -27,7 +28,8 @@ public class Main {
         }
 
         int max = 0;
-        // Для каждых k элементов считаем разность и сравниваем с максимумом
+
+        // For each k elements, we calculate the difference and compare it with the maximum
         for (int i = 0; i < n - 1; ++i) {
             int end;
             if (n - i - 1 >= k)
