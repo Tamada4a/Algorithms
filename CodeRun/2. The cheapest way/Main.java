@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 public class Main {
@@ -39,7 +38,7 @@ public class Main {
                     // We add a starting point to the Dijkstra matrix
                     if (i == 1 && j == 1)
                         dijkstraMatrix[i][j] = Integer.parseInt(split[j - 1]);
-                    // Initialize the remaining points with infinity
+                        // Initialize the remaining points with infinity
                     else
                         dijkstraMatrix[i][j] = Integer.MAX_VALUE;
 
@@ -54,11 +53,8 @@ public class Main {
             e.printStackTrace();
         }
 
-        // This set will contain the visited vertices
-        HashSet<Integer> visitedNodes = new HashSet<>();
-
         // Iterate until we visit all the vertices
-        while (visitedNodes.size() != n * m) {
+        while (unvisitedNodes.size() != 0) {
             // We get an unvisited vertex with a minimum cost from the HashMap
             int minIdx = Collections.min(unvisitedNodes.entrySet(), Map.Entry.comparingByValue()).getKey();
 
@@ -77,9 +73,6 @@ public class Main {
 
             if (unvisitedNodes.containsKey(curI * (m + 2) + curJ + 1))
                 unvisitedNodes.put(curI * (m + 2) + curJ + 1, dijkstraMatrix[curI][curJ + 1]);
-
-            // Marking the current vertex as visited
-            visitedNodes.add(minIdx);
 
             // Removing the current vertex from the unvisited ones
             unvisitedNodes.remove(minIdx);
