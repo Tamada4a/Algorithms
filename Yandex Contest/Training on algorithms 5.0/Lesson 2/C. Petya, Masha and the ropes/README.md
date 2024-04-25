@@ -1,4 +1,4 @@
-# C. Петя, Маша и верёвочки
+# C. Petya, Masha and the ropes
 <table>
   <tr>
       <td>Time limit</td>
