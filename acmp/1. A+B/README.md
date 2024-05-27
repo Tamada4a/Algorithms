@@ -12,6 +12,6 @@ Into a single line of the output file OUTPUT.TXT you need to print one integer â
 
 
 ## Example
-| INPUT.TXT | OUTPUT.TXT |
-|:----------|:-----------|
-| 2 3       | 5          |
+| â„– | INPUT.TXT | OUTPUT.TXT |
+|:--|:----------|:-----------|
+| 1 | 2 3       | 5          |
