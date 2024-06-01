@@ -32,7 +32,10 @@
 		6 6 6 6 8</br>
 		9 9 9 9 9
         </td>
-        <td>11</td>
+        <td>
+		74</br>
+		D D R R R R D D
+	</td>
     </tr>
   </tbody>
 </table>
