@@ -34,8 +34,8 @@ If there are several such sequences, it is necessary to output exactly one (any)
 		9 9 9 9 9
         </td>
         <td>
-	74</br>
-	D D R R R R D D
+		74</br>
+		D D R R R R D D
 	</td>
     </tr>
   </tbody>
