@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // В данных переменных будут храниться соответствующие значения
+        // The corresponding values will be stored in these variables
         int n = Integer.MAX_VALUE, a = Integer.MAX_VALUE, b = Integer.MAX_VALUE, k = Integer.MAX_VALUE;
 
-        // Здесь хранятся значения каждого сектора
+        // The values of each sector are stored here
         ArrayList<Integer> sectors = new ArrayList<>();
 
-        // Считываем данные
+        // Reading data
         try {
             Scanner scanner = new Scanner(new File("input.txt"));
             while (scanner.hasNextInt()) {
@@ -31,14 +31,14 @@ public class Main {
             e.printStackTrace();
         }
 
-        // Считаем минимальное и максимальное количество секторов, которое мы можем пройти
+        // We count the minimum and maximum number of sectors that we can go through
         int minSpins = (a - 1) / k, maxSpins = (b - 1) / k;
 
-        // Корректируем границы, если мы совершаем полные обороты
+        // We adjust the boundaries if we make full turns
         if (maxSpins - minSpins >= n - 1)
             maxSpins = n - 1 + minSpins;
 
-        // Считаем максимум
+        // Counting the maximum
         int max = 0;
         for (int i = minSpins; i <= maxSpins; ++i)
             max = Math.max(max, Math.max(sectors.get(i % n), sectors.get(n - (n + i - 1) % n - 1)));
