@@ -46,7 +46,7 @@ Then in the next line print <i>k</i> numbers <i>len<sub>1</sub></i>, <i>len<sub>
 | 3</br>5</br>1 3 3 3 2</br>16</br>1 9 8 7 6 7 8 9 9 9 9 9 9 9 9 9</br>7</br>7 2 3 4 3 2 7 | 3</br>1 2 2</br>3</br>1 6 9</br>3</br>2 3 2 |
 
 ## Notes
-The answers in the example correspond to the partitions:
+The answers in the example correspond to the partitions:  
 <i>{[1], [3, 3], [3, 2]}</i>  
 <i>{[1], [9, 8, 7, 6, 7, 8], [9, 9, 9, 9, 9, 9, 9, 9, 9]}</i>  
 <i>{[7, 2], [3, 4, 3], [2, 7]}</i>  
