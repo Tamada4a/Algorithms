@@ -36,8 +36,7 @@ The following <i>n</i> lines contain <i>m</i> integers separated by a space. <i>
 <i>a<sub>ij</sub></i> (1 ≤ <i>a<sub>ij</sub></i> ≤ 10<sup>9</sup>).
 
 ## Output format
-In a single line, print two integers separated by a space — the race number and the class number, which should be forbidden to Mikhail. 
-Races and classes are numbered from one. If there are several possible answers, print any of them.
+In a single line, print two integers separated by a space — the race number and the class number, which Mikhail will ban. Races and classes are numbered from one. If there are several possible answers, print any of them.
 
 ## Example 1
 | Input               | Output |
