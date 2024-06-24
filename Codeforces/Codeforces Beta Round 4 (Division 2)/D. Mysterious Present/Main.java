@@ -10,7 +10,7 @@ public class Main {
         int n, w, h;
 
         // This array will store triples: width, height, index
-        ArrayList<Triple> listOfEnvelopes = new ArrayList<>();
+        ArrayList<Triple> listOfLetters = new ArrayList<>();
 
         // Reading data
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
@@ -19,8 +19,7 @@ public class Main {
             w = Integer.parseInt(split[1]);
             h = Integer.parseInt(split[2]);
 
-            // Adding letter sizes for the algorithm to work correctly
-            listOfEnvelopes.add(new Triple(w, h, 0));
+            listOfLetters.add(new Triple(w, h, 0));
 
             for (int i = 0; i < n; ++i) {
                 split = reader.readLine().split(" ");
@@ -30,37 +29,37 @@ public class Main {
                 if (w >= triple.w || h >= triple.h)
                     continue;
 
-                listOfEnvelopes.add(triple);
+                listOfLetters.add(triple);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         // Sorting the array in reverse order
-        listOfEnvelopes.sort(Collections.reverseOrder());
+        listOfLetters.sort(Collections.reverseOrder());
 
         // This array will store the lengths of the maximum chains for each envelope
-        int[] dpArray = new int[listOfEnvelopes.size()];
+        int[] dpArray = new int[listOfLetters.size()];
 
         // This array will store the envelope indexes, at which the maximum chain length for
         // the i-th envelope is reached
-        int[] idxGivesMaxRoute = new int[listOfEnvelopes.size()];
-        for (int i = 1; i < listOfEnvelopes.size(); ++i) {
+        int[] idxGivesMaxRoute = new int[listOfLetters.size()];
+        for (int i = 1; i < listOfLetters.size(); ++i) {
             for (int j = 0; j < i; ++j) {
-                if (listOfEnvelopes.get(j).h > listOfEnvelopes.get(i).h && listOfEnvelopes.get(j).w > listOfEnvelopes.get(i).w) {
+                if (listOfLetters.get(j).h > listOfLetters.get(i).h && listOfLetters.get(j).w > listOfLetters.get(i).w) {
                     dpArray[i] = Math.max(dpArray[i], dpArray[j] + 1);
                     if (dpArray[i] == dpArray[j] + 1)
-                        idxGivesMaxRoute[i] = listOfEnvelopes.get(j).idx;
+                        idxGivesMaxRoute[i] = listOfLetters.get(j).idx;
                 }
             }
         }
 
         // We output the result
-        System.out.println(dpArray[listOfEnvelopes.size() - 1]);
-        if (dpArray[listOfEnvelopes.size() - 1] != 0) {
+        System.out.println(dpArray[listOfLetters.size() - 1]);
+        if (dpArray[listOfLetters.size() - 1] != 0) {
             int cnt = 0;
-            for (int i = listOfEnvelopes.size() - 1; i > -1 && cnt != dpArray[listOfEnvelopes.size() - 1]; --i) {
-                if (dpArray[i] == dpArray[listOfEnvelopes.size() - 1] - cnt) {
+            for (int i = listOfLetters.size() - 1; i > -1 && cnt != dpArray[listOfLetters.size() - 1]; --i) {
+                if (dpArray[i] == dpArray[listOfLetters.size() - 1] - cnt) {
                     System.out.print(idxGivesMaxRoute[i] + " ");
                     cnt++;
                 }
