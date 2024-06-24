@@ -1,5 +1,5 @@
 # D. Mysterious Present
-time limit per test: 5 seconds  
+time limit per test: 1 second  
 memory limit per test: 64 megabytes  
 input: standard input  
 output: standard output
