@@ -14,11 +14,11 @@ user as a hint, *at the same time, the hint is also added to the database*. The 
 are sequentially assigned to *name*, starting with one (*name1*, *name2*, ...), and among them they find such a smallest *i* that *namei* is not 
 contained in the site database.
 
-## Input data
+## Input
 The first line of the input data contains the number *n* (1 ≤ *n* ≤ 10<sup>5</sup>). The following *n* lines contain requests to the system. 
 Each query is a non-empty string of no more than 32 characters long, consisting only of lowercase letters of the Latin alphabet.
 
-## Output data
+## Output
 The output data should contain n lines — the system's responses to requests: *OK* in case of successful registration, or a hint with a new name 
 if the requested one is already occupied.
 
@@ -26,8 +26,8 @@ if the requested one is already occupied.
 <table>
   <thead>
     <tr>
-      <th align= "left">Input data</th>
-      <th align= "left">Output data</th>
+      <th align= "left">Input</th>
+      <th align= "left">Output</th>
     </tr>
   </thead>
   <tbody>
@@ -52,8 +52,8 @@ if the requested one is already occupied.
 <table>
   <thead>
     <tr>
-      <th align= "left">Input data</th>
-      <th align= "left">Output data</th>
+      <th align= "left">Input</th>
+      <th align= "left">Output</th>
     </tr>
   </thead>
   <tbody>
