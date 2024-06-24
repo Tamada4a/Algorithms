@@ -14,13 +14,13 @@ And it is precisely today that parents demand from Petya the schedule of his cla
 in which each number <i>schedule<sub>i</sub></i> means the time in hours spent by Petya in <i>i</i>-th day of studying biology. The 
 numbers must meet the constraints of the parents, and the sum of all <i>schedule<sub>i</sub></i> must be exactly equal to <i>sumTime</i>.
 
-## Input data
+## Input
 The first line of the input data contains two integers <i>d</i>, <i>sumTime</i> (1 ≤ <i>d</i> ≤ 30, 0 ≤ <i>sumTime</i> ≤ 240) — the number of 
 days during which Petya was also engaged in the total number of hours spent on preparation. The following <i>d</i> lines contain two integers 
 each <i>minTime<sub>i</sub></i>, <i>maxTime<sub>i</sub></i> (0 ≤ <i>minTime<sub>i</sub></i> ≤ <i>maxTime<sub>i</sub></i> ≤ 8), separated by a 
 space — the minimum and maximum number of hours that Petya could spend on the <i>i</i>-th day.
 
-## Output data
+## Output
 Print <i>YES</i> in the first line, and in the second <i>d</i> integers separated by spaces, each of which is the number of hours spent by Petya 
 on preparation on the corresponding day. If it is impossible to create the desired list, then output <i>NO</i> in a single line of output data. 
 If there are several solutions, print any one.
@@ -29,8 +29,8 @@ If there are several solutions, print any one.
 <table>
   <thead>
     <tr>
-      <th align= "left">Input data</th>
-      <th align= "left">Output data</th>
+      <th align= "left">Input</th>
+      <th align= "left">Output</th>
     </tr>
   </thead>
   <tbody>
@@ -47,8 +47,8 @@ If there are several solutions, print any one.
 <table>
   <thead>
     <tr>
-      <th align= "left">Input data</th>
-      <th align= "left">Output data</th>
+      <th align= "left">Input</th>
+      <th align= "left">Output</th>
     </tr>
   </thead>
   <tbody>
