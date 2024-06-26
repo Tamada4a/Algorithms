@@ -31,9 +31,7 @@ The first line contains one natural number <i>n</i> (1 ≤ <i>n</i> ≤ 2·10<su
 
 The following 2·<i>n</i> lines describe the favorite playlists of the group members. 2 lines for each member.  
 
-The first of these 2 lines contains the number <i>k<sub>i</sub></i> - the number of favorite tracks <i>i</i> of the group member.  
-
-The next line contains <i>k<sub>i</sub></i> lines separated by a space — the names of favorite tracks <i>i</i> of the group member.  
+The first of these 2 lines contains the number <i>k<sub>i</sub></i> - the number of favorite tracks <i>i</i> of the group member. The next line contains <i>k<sub>i</sub></i> lines separated by a space — the names of favorite tracks <i>i</i> of the group member.  
 
 Each track in the playlist is set as a string, all strings are unique, the sum of the string lengths does not exceed 2·10<sup>6</sup>. The 
 strings contain large and small Latin letters and numbers.
