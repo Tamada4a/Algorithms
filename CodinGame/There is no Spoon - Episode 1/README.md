@@ -42,7 +42,7 @@ The program must first read the initialization data from standard input. Then, p
 containing a node.
 
 ## Output for one game turn
-**One line per node**. Six integers on each line: `x1` `y1` `x2` `y2` `x3` `y3`
+**One line per node**. Six integers on each line: `x1` `y1` `x2` `y2` `x3` `y3`.
 
 Where:
 - (`x1`,`y1`) the coordinates of a node.
