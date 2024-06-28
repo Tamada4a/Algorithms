@@ -24,7 +24,7 @@ numbers modulo will not exceed 1, that is, after deleting, no number should diff
 ## Input format
 The first line contains a single integer <i>n</i> (1 ≤ <i>n</i> ≤ 2·10<sup>5</sup>) — the number of elements of the array <i>a</i>.  
 
-The second line contains <i>n</i> integers <i>a<sub>1</sub></i>, <i>a<sub>2</sub></i>, …, <i>a<sub>n</sub></i> (0 ≤ <i>a<sub>i</sub></i>≤ 10<sup>5</sup>) — elements of the array <i>a</i>.
+The second line contains <i>n</i> integers <i>a<sub>1</sub></i>, <i>a<sub>2</sub></i>, …, <i>a<sub>n</sub></i> (0 ≤ <i>a<sub>i</sub></i> ≤ 10<sup>5</sup>) — elements of the array <i>a</i>.
 
 ## Output format
 Print one number — the answer to the problem.
