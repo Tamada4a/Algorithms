@@ -7,12 +7,12 @@ The function must accept a non-negative integer. If it is zero, it just returns 
 `years`, `days`, `hours`, `minutes` and `seconds`.  
 
 It is much easier to understand with an example:
-```
+<pre>
 * For seconds = 62, your function should return 
     "1 minute and 2 seconds"
 * For seconds = 3662, your function should return
     "1 hour, 1 minute and 2 seconds"
-```
+</pre>
 
 **For the purpose of this Kata, a year is 365 days and a day is 24 hours.**  
 
