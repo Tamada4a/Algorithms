@@ -19,8 +19,8 @@
   </tr>
 </table>
 
-Phone numbers in the address book of a mobile phone have one of the following formats: +7<code><number>, 8<code><number>, <number>, where <number> is seven digits, 
-and <code> is three digits or three digits in parentheses. If the code is not specified, it is assumed that it is equal to 495. In addition, there may be a "-" sign 
+Phone numbers in the address book of a mobile phone have one of the following formats: +7\<code\>\<number\>, 8\<code\>\<number\>, \<number\>, where \<number\> is seven digits, 
+and \<code\> is three digits or three digits in parentheses. If the code is not specified, it is assumed that it is equal to 495. In addition, there may be a "-" sign 
 between any two digits in the phone number record (see the example).  
 
 At the moment, there are only three phone numbers in Vasya's phone address book, and he wants to write another one there. But he can't figure out if such a number is 
@@ -47,14 +47,15 @@ otherwise.
     <tr>
       <td>
         8(495)430-23-97</br>
-		+7-4-9-5-43-023-97</br>
-		4-3-0-2-3-9-7</br>
-		8-495-430
+	+7-4-9-5-43-023-97</br>
+	4-3-0-2-3-9-7</br>
+	8-495-430
       </td>
       <td>
         YES</br>
-		YES</br>
-		NO</br>
+	YES</br>
+	NO</br>
+	</br>
       </td>
     </tr>
   </tbody>
@@ -72,14 +73,15 @@ otherwise.
     <tr>
       <td>
         86406361642</br>
-		83341994118</br>
-		86406361642</br>
-		83341994118
+	83341994118</br>
+	86406361642</br>
+	83341994118
       </td>
       <td>
         NO</br>
-		YES</br>
-		NO</br>
+	YES</br>
+	NO</br>
+	</br>
       </td>
     </tr>
   </tbody>
@@ -97,14 +99,15 @@ otherwise.
     <tr>
       <td>
         +78047952807</br>
-		+78047952807</br>
-		+76147514928</br>
-		88047952807
+	+78047952807</br>
+	+76147514928</br>
+	88047952807
       </td>
       <td>
         YES</br>
-		NO</br>
-		YES</br>
+	NO</br>
+	YES</br>
+	</br>
       </td>
     </tr>
   </tbody>
