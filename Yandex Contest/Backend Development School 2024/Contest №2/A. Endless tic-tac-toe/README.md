@@ -19,7 +19,7 @@
 </table>
 
 The game of tic-tac-toe on an infinite plane is similar to ordinary tic-tac-toe: two players take turns placing their pieces (crosses for the first player and 
-tic—tac-toe for the second) in the free squares of the field. The winner is the player who first lined up his five pieces horizontally, vertically or one of the diagonals.  
+tic-tac-toe for the second) in the free squares of the field. The winner is the player who first lined up his five pieces horizontally, vertically or one of the diagonals.  
 
 The coordinates of the cells are recorded in the log, in the order in which the players placed their pieces. Determine who won the game or track the situation that the players 
 got carried away and continued the game after one of the players won.
