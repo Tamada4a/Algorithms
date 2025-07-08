@@ -23,4 +23,4 @@ Given a signed 32-bit integer `x`, return `x` with its digits reversed. If rever
 </pre>
 
 ## Constraints:
-- `-2<sup>31</sup> <= x <= 2<sup>31</sup> - 1`
+- <code>-2<sup>31</sup> <= x <= 2<sup>31</sup> - 1</code>
